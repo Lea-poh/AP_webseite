@@ -1,25 +1,11 @@
----
-title: "Winfried Pohlmeier's Webpage"
-author: 
-    - name: "Winfried Pohlmeier"
-      orcid: 0000-0003-0707-7417
-      email: "winfried.pohlmeier@uni-konstanz.de"
-    
-      affiliations:
-      - name: "Department of Economics, University of Konstanz"
-        affiliation-url: https://www.wiwi.uni-konstanz.de/en/
-      - name: "Department of Business & Economics, Zeppelin University"
-        affiliation-url: https://www.zeppelin-university.com/research-issues/scientific-departments/wiwi.php
-          
-date: 2024-01-01
-date-modified: today
-title-block-banner: true
----
+::: {style="text-align:center;"}
+![Anette Pohlmeier](assets/AP_Südkurrier.jpg "Anette Pohlmeier"){fig-alt="Picture of Anette Pohlmeier" width="5cm"}
+:::
 
-<!--
-This is a Quarto website.
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
--->
+Dr. med. Anette Pohlmeier Fachärztin für Allgemeinmedizin, Anästhesiologie, Spezielle Schmerztherapie, Notfallmedizin, Palliativmedizin und Akupunktur
 
-```         
-```
+Lehrbeauftragte der Universität Freiburg
+
+Mitglied des Prüfungsausschusses der Landesärztekammer für Palliativmedizin und für Schmerztherapie
+
+Vorstand des Hospizvereins Radolfzell

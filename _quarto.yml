@@ -2,38 +2,27 @@ project:
   type: website
 
 website:
-  title: "Winfried Pohlmeier"
+  title: "Anette Pohlmeier"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - CV.qmd
-      - pubs.qmd
-      - working_papers.qmd
-      - teaching.qmd
-      - downloads.qmd
+      - href: CV.qmd
+        text: Lebenslauf
+      - href: teaching.qmd
+        text: Lehre
+      - href: blog.qmd
+        text: Blog
     right:
-      - icon: github
-        href: https://github.com/
-      #  aria-label: GitHub
-        aria-label: Quarto GitHub
       - icon: envelope
-        text: Email
-        href: "mailto:Winfried.Pohlmeier@uni-konstanz.de" 
-    # - icon: linkedin
-      #  href: "https://linkedin.com/in/oliver-f-anderson"
-      #  aria-label: LinkedIn
-     # - icon: orcid
-     #    href: https://orcid.org/0000-0003-0707-7417
-
+        href: mailto:Anette.pohlmeier@t-online.de
 
 format:
   html:
-    theme: default
+    theme: pulse
     css: styles.css
     toc: true
-    toc-depth: 4
-  
+
 editor: visual
 
+# https://bootswatch.com/ 

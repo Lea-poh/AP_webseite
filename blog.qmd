@@ -1,0 +1,17 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: true
+  date-format: "D MMMM, YYYY"
+---
+
+Ich schreibe eine Kolumne für das Markelfinder Blättle, hier finden Sie meine Artikel
+
+```{=html}
+<!--
+ ![My Garden](assets/garden.jpg)
+-->
+```
