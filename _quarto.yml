@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Anette Pohlmeier"
+  #site-url: https://anettepohlmeier.de/
+  site-url: https://lea-poh.github.io/AP_webseite/
   navbar:
     left:
       - href: index.qmd
