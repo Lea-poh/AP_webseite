@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Anette Pohlmeier">
 
-<title>Blog – Anette Pohlmeier</title>
+<title>Titel hier – Anette Pohlmeier</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,65 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -162,7 +103,7 @@ window.Quarto = {
 <span class="menu-text">Lehre</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -183,22 +124,38 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(7)</span></div><div class="category" data-category="RHJvZ2Vu">Drogen <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3luJUMzJUE0a29sb2dpZQ==">Gynäkologie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW1tdW5vbG9naWU=">Immunologie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWVkaWthbWVudGU=">Medikamente <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVudGFsZSUyMEdlc3VuZGhlaXQ=">Mentale Gesundheit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VW13ZWx0">Umwelt <span class="quarto-category-count">(3)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">Titel hier</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Drogen</div>
+    <div class="quarto-category">Medikamente</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-contents">
+             <p>Anette Pohlmeier </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">1. Juni 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -208,257 +165,11 @@ window.Quarto = {
 </header>
 
 
-<p>Ich schreibe eine Kolumne für das Markelfinder Blättle, hier finden Sie meine Artikel</p>
-<!--
-
-Ein Bild einfügen:
- ![My Garden](assets/garden.jpg)
- 
-# Übersschrift 1
-## Übersschrift 2
-### Übersschrift 3
- 
-<span style="color:red;"> Dieser Test ist rot </span> 
-<span style="color: red; font-size: 20px;">Dieser Satz ist rot und gross.</span>
-
-\* um nicht cursiv zu machen
-
-**Dieser Text ist fett**
-*Dieser Text ist cursiv*
-***Fett und cursiv***
-~~Durchgestrichen~~
-`So sieht der Text wie code aus`
-
-<p style="text-align: justify;">
-Dieser Test ist als block
-</p>
- 
- 
--->
+<p>Text hier</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="VW13ZWx0" data-listing-date-sort="1754006400000" data-listing-file-modified-sort="1757056931668" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="426">
-<div class="thumbnail"><a href="./posts/Wann wird‘s mal wieder richtig Sommer.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Wann wird‘s mal wieder richtig Sommer.html" class="no-external">Wann wird‘s mal wieder richtig Sommer</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VW13ZWx0'); return false;">Umwelt</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Wann wird‘s mal wieder richtig Sommer.html" class="no-external">
-
-„Wann wird‘s mal wieder richtig Sommer?“ – diese Frage, die Rudi Carrell einst besang, ist heute aktueller denn je. Während damals die Sehnsucht nach sonnigen Tagen und…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Wann wird‘s mal wieder richtig Sommer.html" class="no-external">
-<div class="listing-date">
-1 August, 2025
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="RHJvZ2VuJTJDTWVkaWthbWVudGU=" data-listing-date-sort="1748736000000" data-listing-file-modified-sort="1757056931667" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="448">
-<div class="thumbnail"><a href="./posts/Canabis.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Canabis.html" class="no-external">Cannabis</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RHJvZ2Vu'); return false;">Drogen</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWVkaWthbWVudGU='); return false;">Medikamente</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Canabis.html" class="no-external">
-Cannabis sativa gehört zu den ältesten Kulturpflanzen der Menschheit. Sie stammt vermutlich aus Zentralasien oder Ägypten. Bereits 8000 v. Chr. waren aus Hanf gefertigte…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Canabis.html" class="no-external">
-<div class="listing-date">
-1 Juni, 2025
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="SW1tdW5vbG9naWU=" data-listing-date-sort="1746057600000" data-listing-file-modified-sort="1757056931668" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="480">
-<div class="thumbnail"><a href="./posts/Der Mai ist gekommen.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Der Mai ist gekommen.html" class="no-external">Der Mai ist gekommen, die Bäume schlagen aus</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('SW1tdW5vbG9naWU='); return false;">Immunologie</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Der Mai ist gekommen.html" class="no-external">
-Nicht für alle Menschen ist das ein Grund zur Freude, etwa 12 Millionen Menschen leiden in Deutschland an Heuschnupfen (14,8 Prozent). Verantwortlich dafür sind „Frühblüher“…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Der Mai ist gekommen.html" class="no-external">
-<div class="listing-date">
-1 Mai, 2025
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="VW13ZWx0JTJDTWVudGFsZSUyMEdlc3VuZGhlaXQ=" data-listing-date-sort="1738368000000" data-listing-file-modified-sort="1757056931668" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
-<div class="thumbnail"><a href="./posts/Niedergeschlagenheit - Winterdepression - Depression.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Niedergeschlagenheit - Winterdepression - Depression.html" class="no-external">Niedergeschlagenheit - Winterdepression - Depression</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VW13ZWx0'); return false;">Umwelt</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWVudGFsZSUyMEdlc3VuZGhlaXQ='); return false;">Mentale Gesundheit</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Niedergeschlagenheit - Winterdepression - Depression.html" class="no-external">
-Trübes Wetter, dunkle und nass-kalte, neblige Wintertage ohne Sonne schlagen bei vielen Menschen auf die Stimmung. Depressionen sind häufig, ca. 5 % der Bevölkerung sind…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Niedergeschlagenheit - Winterdepression - Depression.html" class="no-external">
-<div class="listing-date">
-1 Februar, 2025
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="R3luJUMzJUE0a29sb2dpZQ==" data-listing-date-sort="1733011200000" data-listing-file-modified-sort="1757056931668" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="482">
-<div class="thumbnail"><a href="./posts/Uns is ein Kind geboren.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Uns is ein Kind geboren.html" class="no-external">Uns ist ein Kind geboren</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('R3luJUMzJUE0a29sb2dpZQ=='); return false;">Gynäkologie</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Uns is ein Kind geboren.html" class="no-external">
-2023 kamen in Deutschland 692 989 Kinder zur Welt. Bevor es soweit ist, vergehen faszinierende 9 Monate. Es fängt damit an, dass zirka 10 bis 14 Tage vor der nächsten zu…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Uns is ein Kind geboren.html" class="no-external">
-<div class="listing-date">
-1 Dezember, 2024
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="SW1tdW5vbG9naWU=" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1757056931668" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
-<div class="thumbnail"><a href="./posts/Grippe Impfung.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Grippe Impfung.html" class="no-external">Grippe Impfung</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('SW1tdW5vbG9naWU='); return false;">Immunologie</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Grippe Impfung.html" class="no-external">
-Die Zielvorgaben der Europäischen Union für ältere Menschen für eine Grippe-Impfung beträgt 75 %, in Deutschland werden jedoch nur 43 % der Menschen über 60 Jahre…<span style="color: red; font-size: 20px;"></span>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Grippe Impfung.html" class="no-external">
-<div class="listing-date">
-1 Oktober, 2024
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="VW13ZWx0" data-listing-date-sort="1714521600000" data-listing-file-modified-sort="1757056931668" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
-<div class="thumbnail"><a href="./posts/Sommer und Sonnenschein.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Sommer und Sonnenschein.html" class="no-external">Sommer und Sonnenschein</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VW13ZWx0'); return false;">Umwelt</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Sommer und Sonnenschein.html" class="no-external">
-Sommer und Sonnenschein - sobald die Sonne scheint, wollen wir ihre Wärme genießen. Im Juni erwarten wir sogar mit 278 Sonnenstunden die höchste Sonnenbestrahlung im Jahr.…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Sommer und Sonnenschein.html" class="no-external">
-<div class="listing-date">
-1 Mai, 2024
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">Keine Treffer</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
