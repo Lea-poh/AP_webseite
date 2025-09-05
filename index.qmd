@@ -1,5 +1,5 @@
 ::: {style="text-align:center;"}
-![Anette Pohlmeier](assets/AP_Südkurrier.jpg "Anette Pohlmeier"){fig-alt="Picture of Anette Pohlmeier" width="5cm"}
+![Anette Pohlmeier](assets/AP_Südkurrier.jpg "Anette Pohlmeier"){fig-alt=Foto Anette Pohlmeier" width="5cm"}
 :::
 
 Dr. med. Anette Pohlmeier Fachärztin für Allgemeinmedizin, Anästhesiologie, Spezielle Schmerztherapie, Notfallmedizin, Palliativmedizin und Akupunktur
