@@ -12,6 +12,28 @@ Ich schreibe eine Kolumne für das Markelfinder Blättle, hier finden Sie meine 
 
 ```{=html}
 <!--
+
+Ein Bild einfügen:
  ![My Garden](assets/garden.jpg)
+ 
+# Übersschrift 1
+## Übersschrift 2
+### Übersschrift 3
+ 
+<span style="color:red;"> Dieser Test ist rot </span> 
+<span style="color: red; font-size: 20px;">Dieser Satz ist rot und gross.</span>
+
+
+**Dieser Text ist fett**
+*Dieser Text ist cursiv*
+***Fett und cursiv***
+~~Durchgestrichen~~
+`So sieht der Text wie code aus`
+
+<p style="text-align: justify;">
+Dieser Test ist als block
+</p>
+ 
+ 
 -->
 ```
