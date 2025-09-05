@@ -23,6 +23,7 @@ Ein Bild einfügen:
 <span style="color:red;"> Dieser Test ist rot </span> 
 <span style="color: red; font-size: 20px;">Dieser Satz ist rot und gross.</span>
 
+\* um nicht cursiv zu machen
 
 **Dieser Text ist fett**
 *Dieser Text ist cursiv*
