@@ -9,11 +9,11 @@ title: "Lebenslauf"
 |--------------------------|-------------------------------------------------------------------------------------|
 | Studium                 | Humanmedizin in Heidelberg und Montpellier                                          |
 | Promotion               | Dr. med. im Fachgebiet Kardiologie                                                  |
-| 1983                    | Ärztliche Approbation                                                               |
-| 1983 – 1989             | Assistenzärztin, Klinik für Anästhesiologie und operative Intensivmedizin, Klinikum Darmstadt |
+| 1985                    | Ärztliche Approbation                                                               |
+| 1985 – 1989             | Assistenzärztin, Klinik für Anästhesiologie und operative Intensivmedizin, Klinikum Darmstadt |
 | 1989                    | Fachärztin für Anästhesiologie                                                       |
 | seit 1995               | Ärztin für Allgemeinmedizin in Radolfzell-Markelfingen                              |
-| Zusatzqualifikationen   | - Spezielle ambulante Schmerztherapie  <br> - Notfallmedizin <br> - Palliativmedizin <br> - Akupunktur |
+| Zusatzqualifikationen   | - Spezielle Schmerztherapie  <br> - Notfallmedizin <br> - Palliativmedizin <br> - Akupunktur |
 | Sprecherin              | Schmerztherapeutischer Arbeitskreis im Landkreis Konstanz                           |
 | Lehrbeauftragte         | Institut für Allgemeinmedizin, Universität Freiburg                                 |
 | Vorstand                | Hospizverein Radolfzell                                                             |
