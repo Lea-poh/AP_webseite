@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Anette Pohlmeier">
 
-<title>Blog – Anette Pohlmeier</title>
+<title>Placebo und Placeboeffekt – Anette Pohlmeier</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9d0d2c4fe2252cabc78cecb5d575732d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9d0d2c4fe2252cabc78cecb5d575732d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,67 +69,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -140,9 +81,9 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Anette Pohlmeier</span>
     </a>
   </div>
@@ -153,19 +94,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html"> 
+    <a class="nav-link" href="../CV.html"> 
 <span class="menu-text">Lebenslauf</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Lehre</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -186,22 +127,38 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(8)</span></div><div class="category" data-category="RHJvZ2Vu">Drogen <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3luJUMzJUE0a29sb2dpZQ==">Gynäkologie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW1tdW5vbG9naWU=">Immunologie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWVkaWthbWVudGU=">Medikamente <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWVudGFsZSUyMEdlc3VuZGhlaXQ=">Mentale Gesundheit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHN5Y2hvbG9naWU=">Psychologie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VW13ZWx0">Umwelt <span class="quarto-category-count">(3)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">Placebo und Placeboeffekt</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Psychologie</div>
+    <div class="quarto-category">Medikamente</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-contents">
+             <p>Anette Pohlmeier </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">1. Oktober 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -211,289 +168,11 @@ window.Quarto = {
 </header>
 
 
-<p>Ich schreibe eine Kolumne für das Markelfinder Blättle, hier finden Sie meine Artikel</p>
-<!--
-
-Ein Bild einfügen:
- ![My Garden](assets/garden.jpg)
- 
-# Übersschrift 1
-## Übersschrift 2
-### Übersschrift 3
- 
-<span style="color:red;"> Dieser Test ist rot </span> 
-<span style="color: red; font-size: 20px;">Dieser Satz ist rot und gross.</span>
-
-\* um nicht cursiv zu machen
-
-**Dieser Text ist fett**
-*Dieser Text ist cursiv*
-***Fett und cursiv***
-~~Durchgestrichen~~
-`So sieht der Text wie code aus`
-
-<p style="text-align: justify;">
-Dieser Test ist als block
-</p>
- 
- 
--->
+<p>Der Urlaub ist zu Ende, man will den mitgebrachten Wein nochmals zur Erinnerung genießen und merkt - er schmeckte im Urlaub einfach besser, der Espresso ist in Italien einfach köstlicher und den besten Cognac der Welt habe ich nach meinem medizinischen Examen mit meinen Kommilitonen getrunken – einen Mariacron. Die wissenschaftliche Beschäftigung mit diesem Phänomen begann im Zweiten Weltkrieg. Auslöser war eine Beobachtung des Militärarztes Henry Beecher. Er sah, wie eine Krankenschwester einem verwundeten Soldaten eine Kochsalzlösung spritzte, weil das Morphin knapp geworden war. Dem Kranken ging es trotzdem besser, die Schmerzen waren reduziert. Daraufhin begann Dr.&nbsp;Beecher sich genauer mit der Wirkung von Placebos und dem Placebo-Effekt zu beschäftigen. Placebos sind Medikamente, die wie Originalpräparate aussehen aber keinen Wirkstoff, sondern meist nur Füllstoffe, wie Milchzucker, Stärke oder, im Falle von Infusionen, eine Kochsalzlösung enthalten. In der klinischen Forschung werden Placebos meist doppelblind eingesetzt. Das bedeutet, dass weder Arzt/in noch die Patient<em>in wissen ob sie ein „Verum“, also ein eigentliches Medikament, oder ein Placebo erhalten. Das zu testende Medikament gilt dann als überlegen, wenn es eine deutlich bessere Wirkung zeigt als das Placebo. Werden mehrere Medikamente gegeneinander (und als drittes ein Placebo) getestet, ist die Placebo Wirkung noch deutlicher ausgeprägt. Placebo-Infusionen wirken besser als Placebo-Kapseln und diese wiederum besser als Placebo-Tabletten. Blaue Placebo-Tabletten verbessern den Schlaf besser als pinke. Rote Placebos sind antriebssteigender als grüne. Zwei Placebos wirken besser als eins, teure wirken besser als billige Placebos. Neben Medikamenten wurden auch Infusionen, Akupunkturen, ja selbst Placebo Operationen getestet. Eine sehr berühmte Studie wurde 2002 zu Kniegelenksoperationen durchgeführt. Im Operations-Saal wurde mit Kochsalzlösung hantiert, um so eine Spülung des Kniegelenkes vorzutäuschen, dazu kamen Spülgeräusche vom Tonband. Die Haut wurde dort eingeritzt, an der das Endoskop normalerweise eingeführt wird. Das Innere des Kniegelenks wurde nicht berührt. Die “OP-Zeit“ blieb unverändert. Beide Gruppen (die echten Operationen und die Schein-Operationen) erhielten postoperativ die gleiche Behandlung mit Physiotherapie, Mobilisation, medizinischer Therapie usw. Zu keinem Untersuchungszeitpunkt (6, 12 und 24 Monate) ließ sich ein Unterschied zwischen der Scheinoperation und der Kniegelenksspülung bzw. der Knorpel-Glättung finden. Nach heutigem Wissen beruhen die Placeboeffekte auf den Erwartungen, die der Patient</em>in an das Scheinmedikament hat, sowie der Glaube an dessen heilende Wirkung. Placebos wirken selbst dann, wenn die Patienten<em>innen wissen, dass sie ein Placebo einnehmen. Die Ausschüttung von körpereigene Opiaten und Hormonen sowie Veränderung der Immunantwort beruht auf neurobiologischen Reaktionen (ähnlich wie beim Pawlowschen Hund). ABER: Keine Behandlung ist ohne Nebenwirkungen, die man bei Placebos als den Nocebo- Effekt bezeichnet. Unvorsichtige Äußerungen, ärztliche Kommentare wie „Ihre Wirbelsäule ist 10 Jahre älter als Sie“ und angstauslösende Berichte von anderen Betroffenen oder negative eigene Erfahrungen können den Nocebo-Effekt verstärken. Auch die im Beipackzettel genannten Nebenwirkungen eines Medikaments treten häufiger auf, sofern der Patient</em>in diese Informationen gelesen hat. Negative Berichterstattung zu medizinischen Themen durch Medien, insbesondere auch Social-Media lösen Angst aus und fördern den Nocebo-Effekt. Ehrliche Aufklärung, vertrauensvolle Zusammenarbeit und klare, balancierte Informationen über Risiken und Nutzen einer Therapie verringern den Nocebo-Effekt und fördern die Wiederherstellung der Gesundheit.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UHN5Y2hvbG9naWUlMkNNZWRpa2FtZW50ZQ==" data-listing-date-sort="1759276800000" data-listing-file-modified-sort="1761663075067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="446">
-<div class="thumbnail"><a href="./posts/Placebo.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Placebo.html" class="no-external">Placebo und Placeboeffekt</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHN5Y2hvbG9naWU='); return false;">Psychologie</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWVkaWthbWVudGU='); return false;">Medikamente</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Placebo.html" class="no-external">
-Der Urlaub ist zu Ende, man will den mitgebrachten Wein nochmals zur Erinnerung genießen und merkt - er schmeckte im Urlaub einfach besser, der Espresso ist in Italien…<em></em><em></em>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Placebo.html" class="no-external">
-<div class="listing-date">
-1 Oktober, 2025
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="VW13ZWx0" data-listing-date-sort="1754006400000" data-listing-file-modified-sort="1761663075067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="426">
-<div class="thumbnail"><a href="./posts/Wann wird‘s mal wieder richtig Sommer.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Wann wird‘s mal wieder richtig Sommer.html" class="no-external">Wann wird‘s mal wieder richtig Sommer</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VW13ZWx0'); return false;">Umwelt</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Wann wird‘s mal wieder richtig Sommer.html" class="no-external">
-
-„Wann wird‘s mal wieder richtig Sommer?“ – diese Frage, die Rudi Carrell einst besang, ist heute aktueller denn je. Während damals die Sehnsucht nach sonnigen Tagen und…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Wann wird‘s mal wieder richtig Sommer.html" class="no-external">
-<div class="listing-date">
-1 August, 2025
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="RHJvZ2VuJTJDTWVkaWthbWVudGU=" data-listing-date-sort="1748736000000" data-listing-file-modified-sort="1761663075067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="448">
-<div class="thumbnail"><a href="./posts/Canabis.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Canabis.html" class="no-external">Cannabis</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RHJvZ2Vu'); return false;">Drogen</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWVkaWthbWVudGU='); return false;">Medikamente</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Canabis.html" class="no-external">
-Cannabis sativa gehört zu den ältesten Kulturpflanzen der Menschheit. Sie stammt vermutlich aus Zentralasien oder Ägypten. Bereits 8000 v. Chr. waren aus Hanf gefertigte…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Canabis.html" class="no-external">
-<div class="listing-date">
-1 Juni, 2025
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="SW1tdW5vbG9naWU=" data-listing-date-sort="1746057600000" data-listing-file-modified-sort="1761663075067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="480">
-<div class="thumbnail"><a href="./posts/Der Mai ist gekommen.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Der Mai ist gekommen.html" class="no-external">Der Mai ist gekommen, die Bäume schlagen aus</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('SW1tdW5vbG9naWU='); return false;">Immunologie</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Der Mai ist gekommen.html" class="no-external">
-Nicht für alle Menschen ist das ein Grund zur Freude, etwa 12 Millionen Menschen leiden in Deutschland an Heuschnupfen (14,8 Prozent). Verantwortlich dafür sind „Frühblüher“…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Der Mai ist gekommen.html" class="no-external">
-<div class="listing-date">
-1 Mai, 2025
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="VW13ZWx0JTJDTWVudGFsZSUyMEdlc3VuZGhlaXQ=" data-listing-date-sort="1738368000000" data-listing-file-modified-sort="1761663075067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
-<div class="thumbnail"><a href="./posts/Niedergeschlagenheit - Winterdepression - Depression.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Niedergeschlagenheit - Winterdepression - Depression.html" class="no-external">Niedergeschlagenheit - Winterdepression - Depression</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VW13ZWx0'); return false;">Umwelt</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWVudGFsZSUyMEdlc3VuZGhlaXQ='); return false;">Mentale Gesundheit</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Niedergeschlagenheit - Winterdepression - Depression.html" class="no-external">
-Trübes Wetter, dunkle und nass-kalte, neblige Wintertage ohne Sonne schlagen bei vielen Menschen auf die Stimmung. Depressionen sind häufig, ca. 5 % der Bevölkerung sind…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Niedergeschlagenheit - Winterdepression - Depression.html" class="no-external">
-<div class="listing-date">
-1 Februar, 2025
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="R3luJUMzJUE0a29sb2dpZQ==" data-listing-date-sort="1733011200000" data-listing-file-modified-sort="1761663075067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="482">
-<div class="thumbnail"><a href="./posts/Uns is ein Kind geboren.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Uns is ein Kind geboren.html" class="no-external">Uns ist ein Kind geboren</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('R3luJUMzJUE0a29sb2dpZQ=='); return false;">Gynäkologie</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Uns is ein Kind geboren.html" class="no-external">
-2023 kamen in Deutschland 692 989 Kinder zur Welt. Bevor es soweit ist, vergehen faszinierende 9 Monate. Es fängt damit an, dass zirka 10 bis 14 Tage vor der nächsten zu…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Uns is ein Kind geboren.html" class="no-external">
-<div class="listing-date">
-1 Dezember, 2024
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="SW1tdW5vbG9naWU=" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1761663075067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
-<div class="thumbnail"><a href="./posts/Grippe Impfung.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Grippe Impfung.html" class="no-external">Grippe Impfung</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('SW1tdW5vbG9naWU='); return false;">Immunologie</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Grippe Impfung.html" class="no-external">
-Die Zielvorgaben der Europäischen Union für ältere Menschen für eine Grippe-Impfung beträgt 75 %, in Deutschland werden jedoch nur 43 % der Menschen über 60 Jahre…<span style="color: red; font-size: 20px;"></span>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Grippe Impfung.html" class="no-external">
-<div class="listing-date">
-1 Oktober, 2024
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="VW13ZWx0" data-listing-date-sort="1714521600000" data-listing-file-modified-sort="1761663075067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
-<div class="thumbnail"><a href="./posts/Sommer und Sonnenschein.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Sommer und Sonnenschein.html" class="no-external">Sommer und Sonnenschein</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VW13ZWx0'); return false;">Umwelt</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Sommer und Sonnenschein.html" class="no-external">
-Sommer und Sonnenschein - sobald die Sonne scheint, wollen wir ihre Wärme genießen. Im Juni erwarten wir sogar mit 278 Sonnenstunden die höchste Sonnenbestrahlung im Jahr.…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Sommer und Sonnenschein.html" class="no-external">
-<div class="listing-date">
-1 Mai, 2024
-</div>
-<div class="listing-author">
-Anette Pohlmeier
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">Keine Treffer</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
