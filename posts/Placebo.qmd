@@ -1,0 +1,57 @@
+---
+title: "Placebo und Placeboeffekt"
+author: "Anette Pohlmeier"
+date: 2025-10-01
+categories: [Psychologie, Medikamente]
+---
+
+Der Urlaub ist zu Ende, man will den mitgebrachten Wein nochmals zur Erinnerung genießen
+und merkt - er schmeckte im Urlaub einfach besser, der Espresso ist in Italien einfach
+köstlicher und den besten Cognac der Welt habe ich nach meinem medizinischen Examen
+mit meinen Kommilitonen getrunken – einen Mariacron.
+Die wissenschaftliche Beschäftigung mit diesem Phänomen begann im Zweiten Weltkrieg.
+Auslöser war eine Beobachtung des Militärarztes Henry Beecher. Er sah, wie eine
+Krankenschwester einem verwundeten Soldaten eine Kochsalzlösung spritzte, weil das
+Morphin knapp geworden war. Dem Kranken ging es trotzdem besser, die Schmerzen waren
+reduziert. Daraufhin begann Dr. Beecher sich genauer mit der Wirkung von Placebos und
+dem Placebo-Effekt zu beschäftigen.
+Placebos sind Medikamente, die wie Originalpräparate aussehen aber keinen Wirkstoff,
+sondern meist nur Füllstoffe, wie Milchzucker, Stärke oder, im Falle von Infusionen, eine
+Kochsalzlösung enthalten.
+In der klinischen Forschung werden Placebos meist doppelblind eingesetzt. Das bedeutet,
+dass weder Arzt/in noch die Patient*in wissen ob sie ein „Verum“, also ein eigentliches
+Medikament, oder ein Placebo erhalten. Das zu testende Medikament gilt dann als
+überlegen, wenn es eine deutlich bessere Wirkung zeigt als das Placebo. Werden mehrere
+Medikamente gegeneinander (und als drittes ein Placebo) getestet, ist die Placebo Wirkung
+noch deutlicher ausgeprägt.
+Placebo-Infusionen wirken besser als Placebo-Kapseln und diese wiederum besser als
+Placebo-Tabletten. Blaue Placebo-Tabletten verbessern den Schlaf besser als pinke. Rote
+Placebos sind antriebssteigender als grüne. Zwei Placebos wirken besser als eins, teure
+wirken besser als billige Placebos.
+Neben Medikamenten wurden auch Infusionen, Akupunkturen, ja selbst Placebo
+Operationen getestet. Eine sehr berühmte Studie wurde 2002 zu Kniegelenksoperationen
+durchgeführt. Im Operations-Saal wurde mit Kochsalzlösung hantiert, um so eine Spülung
+des Kniegelenkes vorzutäuschen, dazu kamen Spülgeräusche vom Tonband. Die Haut
+wurde dort eingeritzt, an der das Endoskop normalerweise eingeführt wird. Das Innere des
+Kniegelenks wurde nicht berührt. Die “OP-Zeit“ blieb unverändert. Beide Gruppen (die
+echten Operationen und die Schein-Operationen) erhielten postoperativ die gleiche
+Behandlung mit Physiotherapie, Mobilisation, medizinischer Therapie usw. Zu keinem
+Untersuchungszeitpunkt (6, 12 und 24 Monate) ließ sich ein Unterschied zwischen der
+Scheinoperation und der Kniegelenksspülung bzw. der Knorpel-Glättung finden.
+Nach heutigem Wissen beruhen die Placeboeffekte auf den Erwartungen, die der Patient*in
+an das Scheinmedikament hat, sowie der Glaube an dessen heilende Wirkung. Placebos
+wirken selbst dann, wenn die Patienten*innen wissen, dass sie ein Placebo einnehmen. Die
+Ausschüttung von körpereigene Opiaten und Hormonen sowie Veränderung der
+Immunantwort beruht auf neurobiologischen Reaktionen (ähnlich wie beim Pawlowschen
+Hund).
+ABER: Keine Behandlung ist ohne Nebenwirkungen, die man bei Placebos als den Nocebo-
+Effekt bezeichnet. Unvorsichtige Äußerungen, ärztliche Kommentare wie „Ihre Wirbelsäule
+ist 10 Jahre älter als Sie“ und angstauslösende Berichte von anderen Betroffenen oder
+negative eigene Erfahrungen können den Nocebo-Effekt verstärken. Auch die im
+Beipackzettel genannten Nebenwirkungen eines Medikaments treten häufiger auf, sofern der
+Patient*in diese Informationen gelesen hat. Negative Berichterstattung zu medizinischen
+Themen durch Medien, insbesondere auch Social-Media lösen Angst aus und fördern den
+Nocebo-Effekt.
+Ehrliche Aufklärung, vertrauensvolle Zusammenarbeit und klare, balancierte Informationen
+über Risiken und Nutzen einer Therapie verringern den Nocebo-Effekt und fördern die
+Wiederherstellung der Gesundheit.
