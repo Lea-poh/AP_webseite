@@ -31,6 +31,7 @@ Link:
 **Dieser Text ist fett**
 *Dieser Text ist cursiv*
 ***Fett und cursiv***
+superscript^2^ / subscript~2~
 ~~Durchgestrichen~~
 `So sieht der Text wie code aus`
 
